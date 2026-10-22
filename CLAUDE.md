@@ -43,6 +43,8 @@ Keep `README.md`'s syllabus in sync when lessons are added or renamed.
 - LSN 2 teaches the **Specify → Generate → Implement → Adjudicate → Iterate** method, plan-before-code, reviewing agent commits/branches/PRs, common agent failure modes, and documenting GenAI use. Its worked example uses Claude Code on the web with a `CLAUDE.md` context file.
 - LSN 1 references `AGENTS.md` (Codex-style) while LSN 2 uses `CLAUDE.md`; be deliberate about which agent tool each lesson targets.
 
-## Known state
+## Lesson 2 specifics
 
-- The LSN 2 deck (`Astro 331 Agentic AI Workflow.pptx`) is a cadet-facing ASTRO 331 lab (KestrelSAT capstone, "Lab #8", Arduino/PlatformIO) that has not yet been adapted for the instructor audience — expect to retitle, re-target, and align it with LSN 1's styling and the `beam-calc`/own-project thread.
+- LSN 2 continues the `beam-calc` thread: the worked example adds a uniformly distributed load (`tipDeflectionUDL`, δ = wL⁴/8EI; hand check 2.40 mm for w = 1000 N/m on the Lesson 1 section). Exercises 1–6 build on it; Exercise 7 moves to the instructor's own repo.
+- Its `CLAUDE.md` example imports the Lesson 1 `AGENTS.md` with `@AGENTS.md`, so both agent tools share one rule set.
+- The agent's cloud sandbox has no MATLAB; slides consistently make the instructor responsible for running tests.
