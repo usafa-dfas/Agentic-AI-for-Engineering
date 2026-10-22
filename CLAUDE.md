@@ -41,7 +41,7 @@ Keep `README.md`'s syllabus in sync when lessons are added or renamed.
 - **`beam-calc`** practice repo (cantilever tip deflection, δ = PL³/3EI, `beam.m` with `README.md`, `AGENTS.md`, `.gitignore`) is the running example in LSN 1; instructors copy it from a template repo.
 - LSN 1 ends with an **"Agent-Ready Checklist"**: instructors bring one of their own projects to a private GitHub repo with a README, `.gitignore`, and an agent context file before LSN 2. Later lessons build on that repo.
 - LSN 2 teaches the **Specify → Generate → Implement → Adjudicate → Iterate** method, plan-before-code, reviewing agent commits/branches/PRs, common agent failure modes, and documenting GenAI use. Its worked example uses Claude Code on the web with a `CLAUDE.md` context file.
-- LSN 1 references `AGENTS.md` (Codex-style) while LSN 2 uses `CLAUDE.md`; be deliberate about which agent tool each lesson targets.
+- LSN 1 introduces `AGENTS.md` (read by Codex); LSN 2 adds `CLAUDE.md` (read by Claude Code), which imports `AGENTS.md`. Keep later lessons consistent with that split.
 
 ## Lesson 2 specifics
 
