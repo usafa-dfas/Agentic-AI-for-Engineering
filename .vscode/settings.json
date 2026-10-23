@@ -1,0 +1,4 @@
+{
+  "markdown.marp.themes": ["./themes/agentic.css"],
+  "markdown.marp.enableHtml": true
+}

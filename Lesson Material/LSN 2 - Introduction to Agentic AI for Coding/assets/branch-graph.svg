@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 300" font-family="Segoe UI, Inter, Helvetica Neue, Arial, sans-serif">
+  <title>An agent branch leaves main, gets two commits, and merges back through a pull request</title>
+  <!-- main line -->
+  <line x1="70" y1="200" x2="1260" y2="200" stroke="#595959" stroke-width="5"/>
+  <text x="0" y="208" font-size="22" font-weight="700">main</text>
+  <!-- agent branch -->
+  <polyline points="200,200 200,95 990,95 990,200" fill="none" stroke="#1f6fb2" stroke-width="5"/>
+  <text x="214" y="135" font-size="21" font-weight="700" fill="#1f6fb2">claude/…</text>
+  <!-- commits on the branch -->
+  <circle cx="440" cy="95" r="15" fill="#1f6fb2"/>
+  <text x="440" y="55" font-size="22" font-weight="700" text-anchor="middle">Add UDL deflection</text>
+  <text x="440" y="140" font-size="20" fill="#404040" text-anchor="middle">a1b2c3d</text>
+  <circle cx="740" cy="95" r="15" fill="#1f6fb2"/>
+  <text x="740" y="55" font-size="22" font-weight="700" text-anchor="middle">Fix test units</text>
+  <text x="740" y="140" font-size="20" fill="#404040" text-anchor="middle">e4f5a6b</text>
+  <!-- commits on main -->
+  <circle cx="200" cy="200" r="15" fill="#fff" stroke="#595959" stroke-width="4"/>
+  <text x="200" y="250" font-size="22" font-weight="700" text-anchor="middle">Lesson 1 work</text>
+  <text x="200" y="280" font-size="20" fill="#404040" text-anchor="middle">main</text>
+  <circle cx="990" cy="200" r="15" fill="#fff" stroke="#595959" stroke-width="4"/>
+  <text x="990" y="250" font-size="22" font-weight="700" text-anchor="middle">Merge PR</text>
+  <text x="990" y="280" font-size="20" fill="#404040" text-anchor="middle">main</text>
+</svg>
