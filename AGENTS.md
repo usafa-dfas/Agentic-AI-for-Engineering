@@ -42,12 +42,16 @@ Keep `README.md`'s syllabus in sync when lessons are added or renamed.
   - Two Content
   - Chip and Content (gray chip such as EXERCISE/SETUP, plus auto-numbered steps)
   - Chip, Steps, and Code
+  - Chip, Steps, and Picture (steps plus a picture placeholder for a screenshot)
   - Title Only (tables, diagrams, composed slides)
 
   Use placeholders and layouts, not loose copies of the chrome.
 - **Per deck, once (on the slide master):** set the lesson tag (`Lesson N`) and the sidebar section list (up to 11 items, one per line). Footer text is `Agentic AI for Engineering · Lesson N`.
-- **Per slide:** one cyan `Nav highlight` text box over the current section in the sidebar, at y = 2.60 in + 0.42 in × (item index). When adding a slide, copy the highlight from a neighbor and move it.
+- **Per slide:** one cyan `Nav highlight` text box over the current section in the sidebar, at y = 2.60 in + 0.42 in × (item index), 1,409,700 EMU wide so it ends at the sidebar edge. When adding a slide, copy the highlight from a neighbor and move it.
 - **Fonts:** Calibri (theme font; reference it as `+mn-lt`/`+mj-lt` rather than by name), Consolas for code and paths, Cambria Math for equations. **Colors:** theme slots dk2 navy `152A47`, accent1 blue `1F6FB2`, accent2 cyan `00B0F0`, accent3 gray `595959`, accent4 code background `1E1E1E`, accent5 rule `BFBFBF`, accent6 muted text `404040`.
+- **Whole-point font sizes only** (no 18.75 or 20.25). Keep every shape inside the slide: text boxes end at the title rule, x = 14.85 in.
+- **Arrows are connectors with arrowheads** (`a:tailEnd type="triangle"`), never a line plus a small square.
+- **Screenshots:** where one is still needed, the slide has a gray `Screenshot placeholder` picture whose alt text and speaker notes say what to capture ("Screenshot to add: …"). Replace it with right-click › Change Picture, which keeps the position and size, then delete that line from the notes.
 - Every slide has speaker notes; keep that true when adding or editing slides.
 - Structure: title → objectives/prerequisites → concepts → numbered hands-on `EXERCISE` slides → reference material (troubleshooting, quick reference) → knowledge check.
 - Hands-on work uses **GitHub Desktop** and **VS Code** (GUI steps written as `Menu › Item`), not the git CLI.
