@@ -27,5 +27,6 @@ USAFA and department GenAI policy, documentation, and data handling. Designing a
 ## Repository contents
 
 - `Lesson Material/` – one folder per lesson with its slide deck. Lessons 1–2 are complete; 3–6 are planned.
+- `practice/` – the `beam-calc` practice files and how to set them up as a GitHub template repository before Lesson 1.
 - `templates/Agentic_AI_Course_Template.potx` – the PowerPoint template every deck uses. Its first slides explain how to use it.
 - `Examples/markdown-slides-pilot/` – Lesson 2 as Markdown (Marp) slides, an example of an alternative to PowerPoint.

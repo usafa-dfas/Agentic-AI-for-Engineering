@@ -1,0 +1,12 @@
+# MATLAB
+*.asv
+*.mex*
+slprj/
+codegen/
+
+# Outputs and data
+results/
+data/raw/
+
+# Secrets
+.env
