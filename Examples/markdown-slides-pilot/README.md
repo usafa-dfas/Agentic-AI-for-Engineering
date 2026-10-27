@@ -2,7 +2,7 @@
 
 An example of the same course material written as plain-text slides instead of a `.pptx`. This folder holds Lesson 2 of the course built with [Marp](https://marp.app): 22 slides with speaker notes, styled to match the PowerPoint decks.
 
-The course itself uses PowerPoint (see `templates/`). This folder is here to show colleagues what the alternative looks like.
+It is a snapshot of an earlier version of Lesson 2 that used Claude Code; the course deck now uses ChatGPT Codex. The course itself uses PowerPoint (see `templates/`). This folder is here to show colleagues what the alternative looks like.
 
 ## View it
 
